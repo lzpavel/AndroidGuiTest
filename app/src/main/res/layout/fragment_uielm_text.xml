@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_uielm_txt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UielmFragmentText">
+
+    <ScrollView
+        android:id="@+id/scroll_view_uielm_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_sv_uielm_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_view_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="24sp" />
+
+            <CheckedTextView
+                android:id="@+id/checked_text_view_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkMark="@android:drawable/checkbox_on_background"
+                android:checkMarkTint="@color/purple_500"
+                android:checkMarkTintMode="multiply"
+                android:checked="true"
+                android:clickable="true"
+                android:text="CheckedTextView"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/edit_text_text_person_name_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/edit_text_text_password_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="password" />
+
+            <EditText
+                android:id="@+id/edit_text_number_password_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberPassword"
+                android:text="1234" />
+
+            <EditText
+                android:id="@+id/edit_text_text_email_address_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="email@android.com" />
+
+            <EditText
+                android:id="@+id/edit_text_phone_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:text="+79201234567" />
+
+            <EditText
+                android:id="@+id/edit_text_text_postal_address_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:text="Address" />
+
+            <EditText
+                android:id="@+id/edit_text_time_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:ems="10"
+                android:inputType="time"
+                android:text="15:00:00" />
+
+            <EditText
+                android:id="@+id/edit_text_date_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:text="01/01/2020" />
+
+            <EditText
+                android:id="@+id/edit_text_number_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="123" />
+
+            <EditText
+                android:id="@+id/edit_text_number_signed_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned"
+                android:text="-123" />
+
+            <EditText
+                android:id="@+id/edit_text_number_decimal_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="123.45" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_text_view_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AutoCompleteTextView" />
+
+            <EditText
+                android:id="@+id/edit_text_text_multi_line_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Multi\nLine\nText" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_input_layout_uielm_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/text_input_edit_text_uielm_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

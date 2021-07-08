@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_main_test_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TestActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_empty_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EmptyActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_basic_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BasicActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_fragmentvm_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FragmentViewModelActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_bottomnavigation_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BottomNavigationActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_tabbed_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TabbedActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_fullscreen_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FullscreenActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_settings_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SettingsActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_navigationdrawer_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NavigationDrawerActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_login_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LoginActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_scrolling_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ScrollingActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_maps_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MapsActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_masterdetailflow_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MasterDetailFlowActivity"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_main_uielements_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UIElements"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewUielmActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UserElementsActivity"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
