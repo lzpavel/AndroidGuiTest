@@ -18,10 +18,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GUITest">
+        <activity android:name=".RecyclerViewActivity"></activity>
         <activity
             android:name=".UielmActivity"
-            android:label="@string/title_activity_uielements2" />
-          <!--  android:theme="@style/Theme.GUITest.NoActionBar" -->
+            android:label="@string/title_activity_uielements2" /> <!-- android:theme="@style/Theme.GUITest.NoActionBar" -->
         <activity android:name=".UiElementsActivity" />
         <activity
             android:name=".MDFItemListActivity"
