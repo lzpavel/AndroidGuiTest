@@ -74,6 +74,15 @@ public class RecyclerViewActivity extends AppCompatActivity {
         public void onBindViewHolder(@NonNull @NotNull RecyclerView.ViewHolder holder, int position) {
             TextView name = holder.itemView.findViewById(R.id.textViewRecyclerItem);
             name.setText(String.format("%s. %s", position, this.items.get(position).getName()));
+            Button buttonDel = holder.itemView.findViewById(R.id.buttonRecyclerDel);
+            buttonDel.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    items.remove(position);
+                    //adapter.notifyItemRemoved(position);
+                    adapter.notifyDataSetChanged();
+                }
+            });
         }
 
         @Override
