@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.textView_main_fullscreen_activity), findViewById(R.id.textView_main_settings_activity), findViewById(R.id.textView_main_navigationdrawer_activity),
                 findViewById(R.id.textView_main_login_activity), findViewById(R.id.textView_main_scrolling_activity), findViewById(R.id.textView_main_maps_activity),
                 findViewById(R.id.textView_main_masterdetailflow_activity), findViewById(R.id.textView_main_uielements_activity), findViewById(R.id.textViewUielmActivity),
-                findViewById(R.id.textViewRecyclerViewActivity)};
+                findViewById(R.id.textViewRecyclerViewActivity), findViewById(R.id.textViewDialogActivity)};
 
         /*tv1 = (TextView) findViewById(R.id.textView1);
         tv2 = (TextView) findViewById(R.id.textView2);
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 new Intent(this, FullscreenActivity.class), new Intent(this, SettingsActivity.class), new Intent(this, NavigationDrawerActivity.class),
                 new Intent(this, LoginActivity.class), new Intent(this, ScrollingActivity.class), new Intent(this, MapsActivity.class),
                 new Intent(this, MDFItemListActivity.class), new Intent(this, UiElementsActivity.class), new Intent(this, UielmActivity.class),
-                new Intent(this, RecyclerViewActivity.class)};
+                new Intent(this, RecyclerViewActivity.class), new Intent(this, DialogActivity.class)};
 
 
 
@@ -117,6 +117,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.textViewRecyclerViewActivity:
                         startActivity(mIntent[15]);
+                        break;
+                    case R.id.textViewDialogActivity:
+                        startActivity(mIntent[16]);
                         break;
                     default:
                         Toast.makeText(getBaseContext(), "Click" + String.valueOf(v.getId()) + "!!!", Toast.LENGTH_SHORT).show();

@@ -18,7 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GUITest">
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".DialogActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
         <activity
             android:name=".UielmActivity"
             android:label="@string/title_activity_uielements2" /> <!-- android:theme="@style/Theme.GUITest.NoActionBar" -->

@@ -129,6 +129,13 @@
                 android:text="Recycler View"
                 android:textSize="24sp" />
 
+            <TextView
+                android:id="@+id/textViewDialogActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dialog Activity"
+                android:textSize="24sp" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
